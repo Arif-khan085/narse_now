@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AndroidManifest.xml — add these permissions inside <manifest> tag -->
+<!--
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+
+Also add inside <queries> tag for url_launcher:
+<queries>
+  <intent>
+    <action android:name="android.intent.action.DIAL" />
+    <data android:scheme="tel" />
+  </intent>
+  <intent>
+    <action android:name="android.intent.action.VIEW" />
+    <data android:scheme="https" />
+  </intent>
+</queries>
+-->
